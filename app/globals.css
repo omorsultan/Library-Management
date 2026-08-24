@@ -83,6 +83,15 @@
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
 }
+@theme {
+  --color-light-100: #f5f5f5;
+  --color-light-200: #E7C9A5;
+  --color-light-300: #d4d4d4;
+  --color-light-400: #a3a3a3;
+  --color-light-500: #737373;
+  --color-light-600: #525252;
+  --color-light-700: #404040;
+}
 
 .dark {
   --background: oklch(0.145 0 0);
@@ -136,5 +145,23 @@
   src: url("/fonts/BebasNeue-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("/fonts/IBMPlexSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("/fonts/IBMPlexSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("/fonts/IBMPlexSans-Bold.ttf") format("truetype");
+  font-weight: 700;
 }
 }
